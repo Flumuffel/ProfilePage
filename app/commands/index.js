@@ -11,6 +11,7 @@ import randc from './randc.js';
 import rm from './rm.js';
 import uname from './uname.js';
 import whoami from './whoami.js';
+import twitch from './twitch.js';
 
 const CommandGroups = [
   {
@@ -68,6 +69,8 @@ const SystemCommands = [
   download,
   exit,
   ls,
+  
+  twitch,
 
   {
     id: 'man',

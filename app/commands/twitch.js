@@ -11,7 +11,7 @@ const twitch = {
     let url = '';
     const user = args[0];
     if (user) {
-      url = `https:/twitch.tv/${user}`;
+      url = `https://twitch.tv/${user}`;
     }
 
     term.writeln(`Startet Stream von ${args[0]}...`);
